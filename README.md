@@ -19,6 +19,24 @@ This project demonstrates the development of a dynamic, full-stack eCommerce pla
 
 ![Dashboard](Images/Dashboard.png)
 
+## 🛠️ Product Management Screen
+
+The Product Management section allows administrators to manage the product catalog with ease.
+
+Key Features:
+- View a list of all products
+- See product details including **Name**, **Description**, **Price**, and **Product Image**
+
+![Product Management](Images/Product_management.png)
+
+---
+
+## 🛒 Shopping Cart Page
+
+Users can add, remove products and view cart total.
+
+![Shopping Cart](Images/cart.png)
+
 ##  **Tools & Technologies Used**
 
 - **NetBeans IDE** – Java project development
