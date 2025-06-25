@@ -56,6 +56,6 @@ Users can add, remove products and view cart total.
 - Secure and efficient database operations using **JDBC**  
   
 
----
+
 
 
