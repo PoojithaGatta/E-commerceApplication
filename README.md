@@ -15,6 +15,9 @@ This project demonstrates the development of a dynamic, full-stack eCommerce pla
 ✔ Responsive Frontend using **HTML, CSS, JSP**  
 
 ---
+## 📊 Application Dashboard
+
+![Dashboard](Images/dashboard.png)
 
 ##  **Tools & Technologies Used**
 
