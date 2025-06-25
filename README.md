@@ -4,7 +4,7 @@ A full-featured eCommerce web application developed using **Java (NetBeans)**, *
 
 ---
 
-## 📖 **Project Description**
+## **Project Description**
 
 This project demonstrates the development of a dynamic, full-stack eCommerce platform that allows:
 
@@ -16,7 +16,7 @@ This project demonstrates the development of a dynamic, full-stack eCommerce pla
 
 ---
 
-## 🛠️ **Tools & Technologies Used**
+##  **Tools & Technologies Used**
 
 - **NetBeans IDE** – Java project development
 - **Java, JSP, Servlets** – Backend logic
@@ -27,13 +27,13 @@ This project demonstrates the development of a dynamic, full-stack eCommerce pla
 
 ---
 
-## 📦 **Key Features**
+## **Key Features**
 
-- 🔑 User Signup and Login with session management  
-- 🛍 Product listing with Create, Read, Update, Delete (CRUD) functionalities  
-- 🛒 Shopping cart with add/remove product options  
-- 💽 Secure and efficient database operations using **JDBC**  
-- 🌐 Runs locally using **WampServer**  
+- User Signup and Login with session management  
+- Product listing with Create, Read, Update, Delete (CRUD) functionalities  
+- Shopping cart with add/remove product options  
+- Secure and efficient database operations using **JDBC**  
+  
 
 ---
 
