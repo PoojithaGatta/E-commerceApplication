@@ -17,7 +17,7 @@ This project demonstrates the development of a dynamic, full-stack eCommerce pla
 ---
 ## 📊 Application Dashboard
 
-![Dashboard](Images/dashboard.png)
+![Dashboard](Images/Dashboard.png)
 
 ##  **Tools & Technologies Used**
 
