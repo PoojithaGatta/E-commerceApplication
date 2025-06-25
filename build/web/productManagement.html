@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: flex-start; /* Align cards to the left */
+            padding: 20px;
+        }
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 3000px; /* Fixed width for each card */
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover; /* Ensure images fit properly */
+        }
+        .product-card .card-body {
+            padding: 15px;
+            text-align: center;
+        }
+        .product-card .card-title {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #333;
+        }
+        .product-card .card-text {
+            color: #666;
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+        .product-card .price {
+            font-size: 1rem;
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Management</h1>
+    <div class="product-container" id="product-container">
+        <!-- Products will be dynamically loaded here by productServlet -->
+    </div>
+
+    <script>
+        fetch('/E-commerceApplication/productManagementServlet')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('product-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching products:', error));
+    </script>
+</body>
+</html>
