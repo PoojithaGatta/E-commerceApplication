@@ -35,7 +35,7 @@ Key Features:
 
 Users can add, remove products and view cart total.
 
-![Shopping Cart](Images/cart.png)
+![Shopping Cart](Images/Cart.png)
 
 ##  **Tools & Technologies Used**
 
